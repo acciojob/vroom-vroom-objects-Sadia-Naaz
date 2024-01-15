@@ -2,11 +2,10 @@
 function Car(make, model) {
 this.make = make;
 this.model=model;
-__prototype__: function getMakeModel() {
+	getMakeModel() {
 return this.make+""+this.model;
 }
-}
-Car();
+	
 function SportsCar(make, model, topSpeed) {
 	this.make=make;
 	this.model=model;
